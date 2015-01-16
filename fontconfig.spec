@@ -32,6 +32,9 @@ Requires(pre):	freetype
 Requires(post):	grep coreutils
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Fontconfig is designed to locate fonts within the
 system and select them according to requirements specified by 
 applications.
@@ -44,6 +47,9 @@ Requires:	freetype-devel >= %{freetype_version}
 Requires:	pkgconfig
 
 %description	devel
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 The fontconfig-devel package includes the header files,
 and developer docs for the fontconfig package.
 
@@ -57,6 +63,9 @@ BuildArch:	noarch
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description	devel-doc
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 The fontconfig-devel-doc package contains the documentation files
 which is useful for developing applications that uses fontconfig.
 
