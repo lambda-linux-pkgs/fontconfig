@@ -1,9 +1,11 @@
+%define _buildid .1
+
 %global freetype_version 2.1.4
 
 Summary:	Font configuration and customization library
 Name:		fontconfig
 Version:	2.10.95
-Release:	7%{?dist}
+Release:	7%{?_buildid}%{?dist}
 # src/ftglue.[ch] is in Public Domain
 # src/fccache.c contains Public Domain code
 # fc-case/CaseFolding.txt is in the UCD
